@@ -18,5 +18,4 @@ jobs:
         with:
           node-version: 12
       - run: npm install
-      - run: npm run cy:ci
-      - run: npm run projektor
+      - run: npm run cy:ci || npm run projektor
