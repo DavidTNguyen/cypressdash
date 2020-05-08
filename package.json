@@ -6,7 +6,7 @@
   "scripts": {
     "cy:dev": "cypress open",
     "cy:ci": "cypress run",
-    "projektor": "NODE_TLS_REJECT_UNAUTHORIZED=0 projektor-publish",
+    "projektor": "projektor-publish",
     "clean-results": "rimraf test-results/*.xml coverage .nyc_*"
   },
   "author": "",
