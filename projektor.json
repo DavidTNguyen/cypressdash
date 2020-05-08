@@ -1,0 +1,11 @@
+{
+  "serverUrl": "https://projektorlive.herokuapp.com",
+  "results": [
+    "test-results/*.xml"
+  ],
+  "attachments": [
+    "cypress/screenshots/**/*.png",
+    "cypress/videos/**/*.mp4"
+  ],
+  "exitWithFailure": true
+}

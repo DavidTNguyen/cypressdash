@@ -1,0 +1,19 @@
+{
+  "name": "cypressdash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:dev": "cypress open",
+    "cy:ci": "cypress run",
+    "projektor": "NODE_TLS_REJECT_UNAUTHORIZED=0 projektor-publish",
+    "clean-results": "rimraf test-results/*.xml coverage .nyc_*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.5.0",
+    "projektor-publish": "^2.2.0",
+    "rimraf": "^3.0.2"
+  }
+}
